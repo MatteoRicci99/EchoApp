@@ -1,4 +1,4 @@
-#Echo_App
+#ECHO
 
 App per android a tema ecosostenibilità, con le seguenti caratteristiche:
 
