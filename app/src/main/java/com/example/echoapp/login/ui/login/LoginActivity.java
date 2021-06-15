@@ -17,10 +17,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.example.echoapp.R;
 
-import com.example.echoapp.login.R;
-import com.example.echoapp.login.ui.login.LoginViewModel;
-import com.example.echoapp.login.ui.login.LoginViewModelFactory;
 
 public class LoginActivity extends AppCompatActivity {
 

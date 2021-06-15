@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+            android:id="@+id/Nuovo"
+            android:title="@string/Nuovo"/>
+    <item
+            android:id="@+id/impostazioni"
+            android:title="@string/Impostazioni"/>
+</menu>

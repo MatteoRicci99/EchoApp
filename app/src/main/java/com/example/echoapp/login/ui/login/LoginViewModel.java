@@ -5,10 +5,10 @@ import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 import android.util.Patterns;
 
+import com.example.echoapp.R;
 import com.example.echoapp.login.data.LoginRepository;
 import com.example.echoapp.login.data.Result;
 import com.example.echoapp.login.data.model.LoggedInUser;
-import com.example.echoapp.login.R;
 
 public class LoginViewModel extends ViewModel {
 
