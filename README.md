@@ -1,3 +1,5 @@
+#ECHO
+
 App per android a tema ecosostenibilità, con le seguenti caratteristiche:
 
 1• calcolo delle emissioni di CO2 di un appartamento in termini di luce e gas analizzando l'offerta della propria compagnia, i kW, m cubi e i costi.
