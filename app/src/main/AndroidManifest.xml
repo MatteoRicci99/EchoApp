@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.example.echoapp">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.echoapp">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+                     tools:ignore="ScopedStorage"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
     <uses-permission android:name="android.permission.READ_CALENDAR"/>
-
 
     <application
             android:allowBackup="true"
@@ -18,7 +19,7 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.EchoApp">
         <activity
-                android:name="com.example.echoapp.login.ui.login.LoginActivity"
+                android:name=".login.ui.login.LoginActivity"
                 android:label="@string/title_activity_login">
         </activity>
         <activity android:name=".MainActivity">
@@ -27,6 +28,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".web.WebActivity" >
         </activity>
     </application>
 
