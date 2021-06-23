@@ -14,7 +14,7 @@ public class WebActivity extends AppCompatActivity {
         setContentView(R.layout.activity_web);
 
         WebView myWebView = findViewById(R.id.webview);
-        myWebView.loadUrl("https://www.treedom.net/it/plant-a-tree?gclid=CjwKCAjwn6GGBhADEiwAruUcKiWg3_TJPjZmMa9hySj_1iNj455tchOpbNoUZFk_2-CqOBNMnlv6HRoC5RcQAvD_BwE");
+        myWebView.loadUrl("https://www.treedom.net/it/plant-a-tree?gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6j3P80jvf6tJ-ojjJCyh9PHOIFXUdnLEsXDVwJGaVaym9R21li3-K0aAgfSEALw_wcB");
 
     }
 }
