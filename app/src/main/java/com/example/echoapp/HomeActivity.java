@@ -2,16 +2,21 @@ package com.example.echoapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import com.example.echoapp.web.WebActivity;
+import com.example.echoapp.treedom.TredomActivity;
 
 public class HomeActivity extends AppCompatActivity {
 
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        startActivity(new Intent(this, HomeActivity.class));
+        finish();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
@@ -37,7 +42,10 @@ public class HomeActivity extends AppCompatActivity {
                 break;
 
             case R.id.TreeDom:
-                startActivity(new Intent(this, WebActivity.class));
+                startActivity(new Intent(this, TredomActivity.class));
+                break;
+
+            default:
                 break;
         }
         return false;

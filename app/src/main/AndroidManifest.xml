@@ -18,10 +18,6 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.EchoApp">
 
-        <activity
-                android:name=".login.ui.login.LoginActivity"
-                android:label="Login">
-        </activity>
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -39,7 +35,7 @@
         </activity>
 
         <activity
-                android:name=".web.WebActivity"
+                android:name=".treedom.TredomActivity"
                 android:label="TreeDom">
         </activity>
     </application>
