@@ -2,6 +2,7 @@ package com.example.echoapp;
 
 
 import android.os.Bundle;
+import android.widget.TableRow;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ElectricEnergy extends AppCompatActivity {
@@ -9,6 +10,6 @@ public class ElectricEnergy extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.electric_energy);
-
+        
     }
 }

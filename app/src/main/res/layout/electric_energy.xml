@@ -10,16 +10,17 @@ android:background="@android:color/white">
 
     <!--table heading-->
     <TableRow
-            android:background="@color/electric_yellow">
-         <TextView
-                 android:layout_width="3dp"
-                 android:layout_height="wrap_content"
-                 android:text="@string/col0"
-                 android:textColor="@color/black"
-                 android:padding="10sp"
-                 android:textSize="14sp"
-                 android:layout_weight="4"
-                 android:gravity="center_horizontal"/>
+            android:background="@color/electric_yellow" android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/col0"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="17sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
         <TextView
                 android:layout_width="3dp"
                 android:layout_height="wrap_content"
@@ -48,17 +49,21 @@ android:background="@android:color/white">
                 android:layout_weight="4"
                 android:gravity="center_horizontal"/>
     </TableRow>
+    <!-- data -->
+
     <TableRow
-        android:background="@color/white">
+            android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:visibility="visible">
         <TextView
-                android:layout_width="3dp"
-                android:layout_height="wrap_content"
-                android:text="@string/col0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/mese1"
                 android:textColor="@color/black"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
-                android:gravity="center_horizontal"/>
+                android:gravity="center_horizontal"
+                android:background="#D3C125"/>
         <TextView
                 android:layout_width="3dp"
                 android:layout_height="wrap_content"
@@ -89,16 +94,16 @@ android:background="@android:color/white">
 
     </TableRow>
     <TableRow
-            android:background="@color/white">
+            android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <TextView
                 android:layout_width="3dp"
-                android:layout_height="wrap_content"
-                android:text="@string/col0"
+                android:layout_height="match_parent"
+                android:text="@string/mese2"
                 android:textColor="@color/black"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
-                android:gravity="center_horizontal"/>
+                android:gravity="center_horizontal" android:background="#D3C125"/>
         <TextView
                 android:layout_width="3dp"
                 android:layout_height="wrap_content"
@@ -130,14 +135,14 @@ android:background="@android:color/white">
     </TableRow> <TableRow
         android:background="@color/white">
     <TextView
-            android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/mese3"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -170,13 +175,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese4"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -209,13 +214,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese5"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -248,13 +253,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese6"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -287,13 +292,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese7"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -326,13 +331,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese8"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -365,13 +370,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese9"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -404,13 +409,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese10"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -443,13 +448,13 @@ android:background="@android:color/white">
         android:background="@color/white">
     <TextView
             android:layout_width="3dp"
-            android:layout_height="wrap_content"
-            android:text="@string/col0"
+            android:layout_height="match_parent"
+            android:text="@string/mese11"
             android:textColor="@color/black"
             android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal" android:background="#D3C125"/>
     <TextView
             android:layout_width="3dp"
             android:layout_height="wrap_content"
@@ -479,5 +484,45 @@ android:background="@android:color/white">
             android:gravity="center_horizontal"/>
 
 </TableRow>
+    <TableRow
+            android:background="@color/white">
+        <TextView
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:text="@string/mese12"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal" android:background="#D3C125"/>
+        <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col1_e"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col2"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col3"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+    </TableRow>
 </TableLayout>
 </RelativeLayout>
