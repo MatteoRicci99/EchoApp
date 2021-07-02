@@ -28,14 +28,14 @@
         </activity>
 
         <activity
-                android:name=".HomeActivity"
+                android:name=".home.HomeActivity"
                 android:icon="@drawable/logo"
                 android:label="ECHO"
                 >
         </activity>
 
         <activity
-                android:name=".treedom.TredomActivity"
+                android:name=".treedom.TreedomActivity"
                 android:label="TreeDom">
         </activity>
     </application>

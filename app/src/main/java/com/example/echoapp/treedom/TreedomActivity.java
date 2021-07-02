@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.webkit.WebView;
 import com.example.echoapp.R;
 
-public class TredomActivity extends AppCompatActivity {
+public class TreedomActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

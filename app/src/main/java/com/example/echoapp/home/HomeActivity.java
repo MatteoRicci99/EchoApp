@@ -1,4 +1,4 @@
-package com.example.echoapp;
+package com.example.echoapp.home;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,16 +6,35 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import com.example.echoapp.treedom.TredomActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.viewpager.widget.ViewPager;
+import com.example.echoapp.R;
+import com.example.echoapp.treedom.TreedomActivity;
+import com.google.android.material.tabs.TabLayout;
 
 public class HomeActivity extends AppCompatActivity {
 
 
+    private Toolbar toolbar;
+    private ViewPager viewPager;
+    private ViewPagerAdapter adapter;
+    private TabLayout tabLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        startActivity(new Intent(this, HomeActivity.class));
-        finish();
+        setContentView(R.layout.activity_home);
+
+        toolbar = findViewById(R.id.toolBar);
+        setSupportActionBar(toolbar);
+
+        viewPager = findViewById(R.id.pager);
+        adapter = new ViewPagerAdapter(getSupportFragmentManager());
+
+        viewPager.setAdapter(adapter);
+
+        tabLayout = findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
     @Override
@@ -42,7 +61,7 @@ public class HomeActivity extends AppCompatActivity {
                 break;
 
             case R.id.TreeDom:
-                startActivity(new Intent(this, TredomActivity.class));
+                startActivity(new Intent(this, TreedomActivity.class));
                 break;
 
             default:
@@ -54,3 +73,10 @@ public class HomeActivity extends AppCompatActivity {
 
 
 }
+
+
+
+
+
+
+
