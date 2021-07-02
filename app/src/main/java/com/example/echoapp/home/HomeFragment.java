@@ -9,11 +9,11 @@ import android.view.ViewGroup;
 import com.example.echoapp.R;
 
 
-public class DemoFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
     private TextView textView;
 
-    public DemoFragment() {
+    public HomeFragment() {
         // Required empty public constructor
     }
 
@@ -22,7 +22,7 @@ public class DemoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_demo, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
         textView = view.findViewById(R.id.txt_display);
         textView.setText(getArguments().getString("message"));
         return view;

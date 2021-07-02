@@ -21,12 +21,12 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
 
-        DemoFragment demoFragment = new DemoFragment();
+        HomeFragment homeFragment = new HomeFragment();
         position = position + 1;
         Bundle bundle = new Bundle();
         bundle.putString("message", "Fragment :"+position);
-        demoFragment.setArguments(bundle);
-        return demoFragment;
+        homeFragment.setArguments(bundle);
+        return homeFragment;
     }
 
     @Override
