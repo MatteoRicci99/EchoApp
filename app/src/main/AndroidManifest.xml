@@ -14,14 +14,11 @@
 
     <application
             android:allowBackup="true"
-            android:icon="@drawable/logo"
             android:label="ECHO"
             android:supportsRtl="true"
             android:theme="@style/Theme.EchoApp">
-        <activity
-                android:name=".login.ui.login.LoginActivity"
-                android:label="@string/title_activity_login">
-        </activity>
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -31,7 +28,15 @@
         </activity>
 
         <activity
-                android:name=".web.WebActivity" >
+                android:name=".home.HomeActivity"
+                android:icon="@drawable/logo"
+                android:label="ECHO"
+                >
+        </activity>
+
+        <activity
+                android:name=".treedom.TreedomActivity"
+                android:label="TreeDom">
         </activity>
     </application>
 

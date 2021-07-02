@@ -12,25 +12,4 @@
     <string name="logo">TODO</string>
     <string name="Nuovo">Nuovo</string>
     <string name="Impostazioni">Impostazioni</string>
-
-    <!--inizio tabella bollette -->
-    <string name="col0">Mese</string>
-    <string name="col1_e">Consumo in KW</string>
-    <string name="col1_g">Consumo in M^3</string>
-    <string name="col2">Bolletta in €</string>
-    <string name="col3">CO2 Prodotta in KG</string>
-    <string name="mese1">Gennaio</string>
-    <string name="mese2">Febbraio</string>
-    <string name="mese3">Marzo</string>
-    <string name="mese4">Aprile</string>
-    <string name="mese5">Maggio</string>
-    <string name="mese6">Giugno</string>
-    <string name="mese7">Lugio</string>
-    <string name="mese8">Agosto</string>
-    <string name="mese9">Settembre</string>
-    <string name="mese10">Ottobre</string>
-    <string name="mese11">Novembre</string>
-    <string name="mese12">Dicembre</string>
-    <!--fine tabella bollette -->
-
 </resources>
